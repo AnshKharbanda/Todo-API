@@ -3,16 +3,16 @@
 A simple backend API built using FastAPI that supports full CRUD (Create, Read, Update, Delete) operations for managing tasks.
 
 🚀 Features
-Create a new task
-Get all tasks
-Get a task by ID
-Update task (partial update using PATCH)
-Delete a task
+->Create a new task
+->Get all tasks
+->Get a task by ID
+->Update task (partial update using PATCH)
+->Delete a task
 
 🛠️ Tech Stack
-Python
-FastAPI
-Uvicorn
+->Python
+->FastAPI
+->Uvicorn
 
 📌 API Endpoints
 🔹 Create Task
@@ -27,5 +27,5 @@ PATCH /tasks/{task_id}
 DELETE /tasks/{task_id}
 
 ⚠️ Note
-Data is stored in-memory (Python dictionary)
-Data will reset when the server restarts
+->Data is stored in-memory (Python dictionary)
+->Data will reset when the server restarts
